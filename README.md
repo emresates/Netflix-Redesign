@@ -6,3 +6,6 @@
 
 ##### I was going to add trailer playback to all movies/series when hovered like on Netflix. But this feature didn't work as the poster is horizontal in Netflix and vertical in my version. If you still want to see it, you can hover over the "Prison Break" in the Newly Released Series part. It starts when you hover, It stops when you not. 
 
+
+https://user-images.githubusercontent.com/84937009/195038347-e14dbf31-a6cb-45fc-92de-58f43f1e1754.mp4
+
