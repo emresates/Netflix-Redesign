@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+        <a href="#"><img src="imgs/icons/logo.png" alt="logo" class="logo"></a>
+        <ul>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">New & Popular</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Soon</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Titles, People, Genres" required>
+            <img src="imgs/icons/search.png" alt="">
+        </div>
+        <div class="right-side">
+            <img src="imgs/icons/bell.png" alt="" class="bell">
+
+            <img src="imgs/icons/profile.png" alt="" class="profile">
+
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero">
+            <video id="video" class="hero" poster="imgs/posters/hero.jpg">
+                <source src="imgs/Road to Season 2 Trailer _ The Witcher.mp4" video>
+        </div>
+        <div class="left">
+            <div class="net">
+                <img src="imgs/icons/netflix-logoN.png" alt="">
+                <h3>SERIES</h3>
+            </div>
+            <img src="imgs/icons/png.png" alt="">
+            <h3>Season 2 coming 17 December</h3>
+            <!-- <p>Geralt of Rivia , a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world
+                where people often prove more wicked than beasts.</p> -->
+            <div class="buttons">
+                <button id="play">Play Trailer</button>
+                <button id="myList">+ My List</button>
+            </div>
+            <div class="det">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Episodes</a></li>
+                    <li><a href="#">Details</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- TITLE CONTINUE WATCHING-->
+    <div class="titles">
+        <div class="header">
+            <h3 class="title">Continue Watching</h3>
+        </div>
+
+    </div>
+
+    <!-- CONTINUE WATCHING -->
+    <div class="continue container">
+        <button id="handle" class="handle left-handle">&#8249;</button>
+        <div class="boxes">
+
+            <div class="box" style="background-image:url('imgs/posters/peaky.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>Peaky Blinders</h3>
+                    <h5>2013 · 63min <img id="remove" src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Season 3 Episode 2</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="95"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/money.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>Money Heist</h3>
+                    <h5>2021 · 58min <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Season 4 Episode 3</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="0"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/friends.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>F.R.I.E.N.D.S</h3>
+                    <h5>2003 · 23 min <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Season 6 Episode 18</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="12"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/interstellar.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>Interstellar</h3>
+                    <h5>2014 · 2h 49m <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Continue from 1h 38m</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="54"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/office.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>The Office</h3>
+                    <h5>2005 · 9 Seasons <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Season 3 Episode 20</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="99"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/bill.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <h3>Kill Bill</h3>
+                    <h5>2004 · 2h 14min <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Continue from 23min</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="0"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" style="background-image:url('imgs/posters/robots.jpg')">
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="box-details">
+                    <!-- I used inline css for this. I didn't want to add a new class -->
+                    <h3 style="font-size: 23px;">Love Death Robots</h3>
+                    <h5>2022 · 3 Volumes <img src="imgs/icons/minus-button.png" alt=""></h5>
+                    <h4>Volume 2 Episode 2</h4>
+                    <div class="meter">
+                        <div class="meter">
+                            <meter min="0" max="100" value="50"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-item active"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+        </div>
+        <button id="handle" class="handle right-handle">&#8250;</button>
+    </div>
+
+    <!-- TITLE NEWLY RELEASED SERIES-->
+    <div class="titles2">
+        <h3>Newly Released Series</h3>
+        <div class="see-all">
+            <h5>See all</h5>
+            <img src="imgs/icons/right.png" alt="right arrow">
+        </div>
+    </div>
+
+    <!-- NEW RELEASED -->
+    <div class="release container">
+        <button id="handle" class="handle2 left-handle">&#8249;</button>
+        <div class="boxes">
+
+            <div class="release-box" style="background-image:url('imgs/posters/pb.jpg')">
+                <div class="box-video">
+                    <video id="box-video" class="box-video" poster="imgs/posters/pb.jpg">
+                        <source src="imgs/Road to Season 2 Trailer _ The Witcher.mp4" video>
+                </div>
+                <div class="popup">
+                    <h3>New Episodes Weekly</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Prison Break</h3>
+                    <h5>2005 <b>·</b> 5. Season <img src="imgs/icons/hd.png" alt=""><img id="img1" class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Action <b>·</b> Crime <b>·</b> Drama</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/vikings.jpg')">
+                <div class="popup">
+                    <h3>New Episodes Weekly</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Vikings</h3>
+                    <h5>2013 <b>·</b> 6. Season <img src="imgs/icons/fhd.png" alt=""><img id="img1" class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Violent <b>·</b> Exciting <b>·</b> Epic</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/uma.jpg')">
+                <div class="popup">
+                    <h3>New Season</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>The Umbrella Academy</h3>
+                    <h5>2021 <b>·</b> 3. Season <img class="img1" src="imgs/icons/4k-film.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Mind-Bending <b>·</b> Offbeat <b>·</b> Superhero</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/st.jpg')">
+                <div class="popup">
+                    <h3>New Episodes Weekly</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Sweet Tooth</h3>
+                    <h5>2021 <b>·</b> 2. Season <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Quirky <b>·</b> Heartfelt <b>·</b> Fantasy TV</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/dark.png')">
+                <div class="popup">
+                    <h3>Last Season</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Dark</h3>
+                    <h5>2020 <b>·</b> 3. Season <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Mind-Bending <b>·</b> Chilling <b>·</b> Ominous</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/arcane.jpg')">
+                <div class="popup">
+                    <h3>New Episodes</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Arcane</h3>
+                    <h5>2021 <b>·</b> 9 Episodes <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Fantasy <b>·</b> Gritty <b>·</b> Universe</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/suits.png')">
+                <div class="popup">
+                    <h3>New Season</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Suits</h3>
+                    <h5>2019 <b>·</b> 9. Season <img class="img1" src="imgs/icons/4k-film.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Dramedy <b>·</b> Witty <b>·</b> Courtroom</h4>
+                </div>
+            </div>
+
+            <div class="release-box" style="background-image:url('imgs/posters/carbon.jpg')">
+                <div class="popup">
+                    <h3>New Episodes Weekly</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="release-details">
+                    <h3>Altered Carbon</h3>
+                    <h5>2020 <b>·</b> 2. Season <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Mind-Bending <b>·</b> Dystopian <b>·</b> Sci-Fi TV</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-item active"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+        </div>
+        <button id="handle" class="handle2 right-handle">&#8250;</button>
+
+    </div>
+
+    <!-- TITLE MOVIES YOU MAY LIKE-->
+    <div class="titles2">
+        <h3>Movies You May Like</h3>
+        <div class="see-all">
+            <h5>See all</h5>
+            <img src="imgs/icons/right.png" alt="right arrow">
+        </div>
+    </div>
+
+    <!-- MOVIES YOU MAY LIKE -->
+    <div class="movies container">
+        <button id="handle" class="handle2 left-handle">&#8249;</button>
+        <div class="boxes">
+
+            <div class="movies-box" style="background-image:url('imgs/posters/fb2.jpg')">
+                <div class="popup2">
+                    <h3>New Movie in the Series</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>The Crimes of Grindelwald</h3>
+                    <h5>2018 <b>·</b> 2h 14m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Exciting <b>·</b> Fantasy Movie <b>·</b> Witchcraft</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/blonde.jpg')">
+                <div class="popup2">
+                    <h3>Marilyn Monroe's Life</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Blonde</h3>
+                    <h5>2022 <b>·</b> 2h 46m <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Intimate <b>·</b> Drama <b>·</b> Art House</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/inception.jpg')">
+                <div class="popup2">
+                    <h3>Dreams Come True </h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Inception</h3>
+                    <h5>2010 <b>·</b> 2h 28m <img class="img1" src="imgs/icons/hd.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Mind-Bending <b>·</b> Dystopian <b>·</b> Cyberpunk</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/tenet.jpg')">
+                <div class="popup2">
+                    <h3>Nolan's Latest Published Piece</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Tenet</h3>
+                    <h5>2020 <b>·</b> 2h 30m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Mind-Bending <b>·</b> Slick <b>·</b> Sci-Fi Thriller</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/joker.png')">
+                <div class="popup2">
+                    <h3>New Joker</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Joker</h3>
+                    <h5>2019 <b>·</b> 2h 1m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Violent <b>·</b> Psychological <b>·</b> Thriller</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/hateful.jpg')">
+                <div class="popup2">
+                    <h3>Where Do You Stay in Winter ?</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>The Hateful Eight</h3>
+                    <h5>2015 <b>·</b> 2h 48m <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Violent <b>·</b> Mystery <b>·</b> Thriller</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/madmax.jpg')">
+                <div class="popup2">
+                    <h3>Post-Apocalyptic Wasteland </h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Mad Max Fury Road</h3>
+                    <h5>2015 <b>·</b> 2h <img class="img1" src="imgs/icons/fhd.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Dystopian <b>·</b> Explosive <b>·</b> Fantasy Movie</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/basterd.png')">
+                <div class="popup2">
+                    <h3>Be Careful How to Order</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Inglourious Basterds</h3>
+                    <h5>2009 <b>·</b> 2h 32m <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Violent <b>·</b> Suspenseful <b>·</b> Action Thriller</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-item active"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+        </div>
+        <button id="handle" class="handle2 right-handle">&#8250;</button>
+
+    </div>
+
+    <!-- TITLE TRENDING-->
+    <div class="titles2">
+        <h3>Trending Now</h3>
+        <div class="see-all">
+            <h5>See all</h5>
+            <img src="imgs/icons/right.png" alt="right arrow">
+        </div>
+    </div>
+
+    <!-- TRENDS -->
+    <div class="trends container">
+        <button id="handle" class="handle2 left-handle">&#8249;</button>
+        <div class="boxes">
+
+            <div class="trends-box" style="background-image:url('imgs/posters/bbad.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-1.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>Breaking Bad</h3>
+                    <h5>2013 <b>·</b> 5 Seasons <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Violent <b>·</b> Gritty <b>·</b> Thriller</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/godfather.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-2.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>The Godfather</h3>
+                    <h5>1972 <b>·</b> 2h 55m <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Crime <b>·</b> Drama <b>·</b> Mafia</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/ram.png')">
+                <div class="rank">
+                    <img src="imgs/icons/number-3.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>Rick and Morty</h3>
+                    <h5>2021 <b>·</b> 5 Seasons <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Absurd <b>·</b> Quirky <b>·</b> Dark Comedy</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/narcos1.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-4.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>Narcos</h3>
+                    <h5>2017 <b>·</b> 3 Seasons <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Gritty <b>·</b> Suspenseful <b>·</b> Exciting</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/matrix.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-5.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>The Matrix</h3>
+                    <h5>1999 <b>·</b> 2h 16m <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Mind-Bending <b>·</b> Dystopian <b>·</b> Cyberpunk</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/lucifer.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-6.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>Lucifer</h3>
+                    <h5>2021 <b>·</b> 6 Seasons <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Slick <b>·</b> Exciting <b>·</b> Satanic</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/const.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-7.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>Constantine</h3>
+                    <h5>2005 <b>·</b> 2h <img src="imgs/icons/hd.png" alt=""><img class="img1" src="imgs/icons/plus.png"
+                            alt="">
+                    </h5>
+                    <h4>Satanic <b>·</b> Hollywood Movie <b>·</b> Based on Comic</h4>
+                </div>
+            </div>
+
+            <div class="trends-box" style="background-image:url('imgs/posters/mseven.jpg')">
+                <div class="rank">
+                    <img src="imgs/icons/number-8.png" alt="">
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="trends-details">
+                    <h3>The Magnificent Seven</h3>
+                    <h5>2016 <b>·</b> 2h 13m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Explosive <b>·</b> Violent <b>·</b> Western</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-item active"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+        </div>
+        <button id="handle" class="handle2 right-handle">&#8250;</button>
+
+    </div>
+
+    <!-- TITLE BLOCKBUSTER MOVIES-->
+    <div class="titles2">
+        <h3>Blockbuster Movies</h3>
+        <div class="see-all">
+            <h5>See all</h5>
+            <img src="imgs/icons/right.png" alt="right arrow">
+        </div>
+    </div>
+
+    <!-- BLOCKBUSTER MOVIES -->
+    <div class="movies container">
+        <button id="handle" class="handle2 left-handle">&#8249;</button>
+        <div class="boxes">
+
+            <div class="movies-box" style="background-image:url('imgs/posters/tdknight.jpg')">
+                <div class="popup3">
+                    <h3>Heath Ledger's Joker</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>The Dark Knight</h3>
+                    <h5>2008 <b>·</b> 2h 32m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Exciting <b>·</b> Superhero <b>·</b> Visually Striking</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/truman.png')">
+                <div class="popup3">
+                    <h3>What If We Are on a TV Show</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>The Truman Show</h3>
+                    <h5>1998 <b>·</b> 1h 43m <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Showbiz <b>·</b> Dramedy <b>·</b> Hollywood Movie</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/brunner.jpg')">
+                <div class="popup3">
+                    <h3>A Dystopian Story in the Future</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Blade Runner 2049</h3>
+                    <h5>2017 <b>·</b> 2h 41m <img class="img1" src="imgs/icons/hd.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Mind-Bending <b>·</b> Dystopian <b>·</b> Cyberpunk</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/birdbox.jpg')">
+                <div class="popup3">
+                    <h3>Do Not Look and Live Longer</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Bird Box</h3>
+                    <h5>2018 <b>·</b> 2h 4m <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Chilling <b>·</b> Ominous <b>·</b> Sci-Fi Drama</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/wick.jpg')">
+                <div class="popup3">
+                    <h3>It's hard being a retired hit-man</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>John wick</h3>
+                    <h5>2014 <b>·</b> 1h 41m <img src="imgs/icons/4k-film.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Exciting <b>·</b> Violent <b>·</b> Film Noir</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/legend.jpg')">
+                <div class="popup3">
+                    <h3>Who Want to Live in Deserted New York City</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>I Am Legend</h3>
+                    <h5>2007 <b>·</b> 1h 40m <img src="imgs/icons/fhd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Dystopian <b>·</b> Ominous <b>·</b> Sci-Fi Thriller</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/hulk.png')">
+                <div class="popup3">
+                    <h3>Let's Calm Down a Bit</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>The Incredible hulk</h3>
+                    <h5>2008 <b>·</b> 1h 52m <img class="img1" src="imgs/icons/hd.png" alt=""> <img class="img1"
+                            src="imgs/icons/plus.png" alt=""></h5>
+                    <h4>Explosive <b>·</b> Suspenseful <b>·</b> Superhero</h4>
+                </div>
+            </div>
+
+            <div class="movies-box" style="background-image:url('imgs/posters/shutter.jpg')">
+                <div class="popup3">
+                    <h3>Award-Winning Martin Scorsese Movie</h3>
+                </div>
+                <div class="play">
+                    <button></button>
+                </div>
+                <div class="movies-details">
+                    <h3>Shutter Island</h3>
+                    <h5>2010 <b>·</b> 2h 18m <img src="imgs/icons/hd.png" alt=""><img class="img1"
+                            src="imgs/icons/plus.png" alt="">
+                    </h5>
+                    <h4>Mind-Bending <b>·</b> Ominous <b>·</b> Film Noir</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-item active"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+            <div class="progress-item"></div>
+        </div>
+        <button id="handle" class="handle2 right-handle">&#8250;</button>
+
+    </div>
+
+    <!-- TITLE -->
+    <div class="titles2">
+        <h3>Selections for You</h3>
+        <div class="see-all">
+            <h5>See all</h5>
+            <img src="imgs/icons/right.png" alt="right arrow">
+        </div>
+    </div>
+
+    <!-- SELECTIONS FOR YOU -->
+    <div class="selections">
+        <div class="boxes">
+
+            <div class="selec-box" style="background-image: url('imgs/posters/originals.png');">
+                <h3>Netflix Originals</h3>
+            </div>
+
+            <div class="selec-box" style="background-image: url('imgs/posters/award.png');">
+                <h3>Award Winning</h3>
+            </div>
+
+            <div class="selec-box" style="background-image: url('imgs/posters/crime.png');">
+                <h3>Crime Movies</h3>
+            </div>
+
+            <div class="selec-box" style="background-image: url('imgs/posters/england.png');">
+                <h3>Made in England</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="imgs/icons/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/secenory"><img src="imgs/icons/instagram.png" alt=""></a>
+            <a href="#"><img src="imgs/icons/twitter.png" alt=""></a>
+            <a href="#"><img src="imgs/icons/youtube.png" alt=""></a>
+        </div>
+        <div class="choices">
+            <ul>
+                <li><a href="#">Audio and Subtitles</a></li>
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Corporate Informations</a></li>
+            </ul>
+        </div>
+
+        <button>Service Code</button>
+
+        <p> © 1997-2022 Netflix, Inc. {9e69scnr-45c6-4d15-8713-8781fa54b508} <span>Redesigned by Secenory</span></p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
